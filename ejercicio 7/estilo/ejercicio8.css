@@ -1,6 +1,7 @@
 h1 {color: red}
 p.Biblio {font-size: 16px; color: blue;}
 li{color:cornflowerblue; font-size: 20px;}
+.colorido{color: yellowgreen; font-size:21px;}
 
 /* Uso de metadatos basados en clases para aplicar formatos*/
 cite.Titulo {font-size: 20px;}
