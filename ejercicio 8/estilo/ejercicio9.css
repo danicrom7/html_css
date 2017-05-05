@@ -6,7 +6,7 @@ div:hover{width:400px; height: 400px;
          background-color: blue;
 
 }
-P::first-letter{font-family: Courier New, Courier, monospace;
+P::first-letter{font-family: 'Inknut Antiqua', serif;
                 font-size: 25px;
 
 }
