@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>transformacion mas transicion</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+		h1 {color:red;
+			-moz-transition: -moz-transform 10s ease-in-out 0.5s;
+			-webkit-transition: -webkit-transform 10s ease-in-out 0.5s;
+			-moz-transform: rotate(1deg);
+			-webkit-transform: rotate(1deg);
+		}
+	
+		#principal {
+			display: block;
+			width: 500px;
+			margin: 50px auto;
+			padding: 15px;
+			text-align: center;
+			border: 1px solid #999999;
+			background: #DDDDDD;
+			-moz-transition: -moz-transform 1s ease-in-out 0.5s;
+			-webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+		}
+		#principal:hover{
+			-moz-transform: rotate(10deg);
+			-webkit-transform: rotate(10deg);
+		}		
+	</style>
+    </head>
+    <body>
+	<h1>Ejemplo de transiciones + transformaciones</h1>
+	<p id="principal">Toca con el cursor</p>
+
+</body>
+</html>
