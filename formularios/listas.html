@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>listas</title>
+        <title>listas,optgroup,datalist...</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -13,13 +13,26 @@
                  <p>    seleciona un color</p>
 
                  <select name="colores" id="colores">
-
+                     <optgroup label="pri">
                      <option value="r">ROJO</option>
                      <option value="b">AZUL</option>
                      <option value="y">AMARILLO</option>
+                     </optgroup>
+                     <optgroup label="sec">
                      <option value="p">ROSA</option>
                      <option value="bk">NEGRO</option>
+                     </optgroup>
                  </select>
+
+                 <datalist id="listacolores">
+                     <option value="p">ROSA</option>
+                     <option value="bk">NEGRO</option>
+                     <option value="r">ROJO</option>
+                     <option value="b">AZUL</option>
+                     <option value="y">AMARILLO</option>
+
+                 </datalist>
+                 <input type="text" name="colores2" list="listacolores">
 
                 <input type="submit" name="send" value="Enviar">
           </form>

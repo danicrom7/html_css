@@ -1,13 +1,29 @@
 *{box-sizing: border-box;}
-body{background-image:url(fondo.jpg)}
-h1{ color: red; text-align: center;
+
+body{
+  background:url("../images/fondo.jpg")
+     brown
+     repeat left;}
+
+h1{ color:white; text-align: center;
+  font-family: 'Inknut Antiqua', serif;
   }
-  article{width: 90%; margin: 1%;}
-#datos{float: right;width: 10%; background-color:blue; min-width:10%; 
-       padding: 0px; }
-       table{ width: 100%; }
-#foto{width: 90%; background-color: yellow; padding: 0px; margin: 0px;}
-img{}
+  article{width: 90%;margin: 1%;}
+#datos{float: right; width:200px; background-color:blue; 
+       padding:10px;  }
+ img{min-width: 800px; padding: 0px; margin: 0px;}     
+
+
+      
+#foto{ width: 80%; min-width: 800px; background-color: yellow;
+ padding: 0px; margin: 0px;
+
+      }
+.peke{width: 25%; float:right; margin-right: 10%; margin-top: 1%; min-width: 180px;}
+
 #histo{width: 100%;}
-#p1{ width: 45%; float:right; margin-left: 5%;}
-#p2{width: 55%; }
+#p1{ width: 50%; float: right;  margin-left: 1%; font-family: 'Barrio', cursive; color: white
+}
+#p2{width: 50%; font-family: 'Barrio', cursive; color:white; }
+footer{width: 100%; background-color: black; }
+address{ text-align: center; width: 100%; color: red;}
