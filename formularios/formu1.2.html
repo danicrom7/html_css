@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>formulario 1 metodo post</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+         <form method="post" action="form.asp">
+               <fieldset>
+                   <legend>Datos personales</legend>
+                     <label for="first_name">Nombre</label><br>
+                                   <input type="text" name="first_name" id="first_name"
+                                     placeholder="Escribe tu nombre..." value="" required><br>
+
+                     <label for="family_name">Apellidos</label><br>
+                                   <input type="text" name="family_name"
+                                     required id="family_name" value=""><br>
+
+                     <label for="email">Email</label><br>
+                                   <input type="email" name="email" id="email"
+                                      value="@tajamar365.com"><br>
+                     
+                     <label for="password">Contraseña</label><br>
+                                   <input type="password" name="password" id="password"><br>
+                               <input type="submit" name="send" value="Enviar">
+                               
+                               </fieldset>
+                </form>
+
+
+
+
+
+         <form method="get" action="https://www.google.es/search">
+                 <fieldset>
+                        <legend>Buscar</legend>
+                          <input type="text" name="q" value="gatos">
+                          <br>
+                          <label for="opinion">Danos tu opinion</label><br>
+                          <textarea name="opinion" id="opinion" cols="30" rows="10" maxlength="10"></textarea>
+
+                    
+                        <input type="submit" name="send" value="Enviar">
+                 </fieldset>
+         </form>
+        
+    </body>
+</html>
