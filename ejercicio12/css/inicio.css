@@ -1,0 +1,15 @@
+body {
+  background-color: aqua;
+  width: 100%; }
+  body header {
+    width: 60%;
+    background-color: red; }
+  body article {
+    width: 50%;
+    border: 2px solid red;
+    background-color: blue; }
+    body article p {
+      font-size: 16em;
+      margin-left: 2em; }
+
+/*# sourceMappingURL=inicio.css.map */

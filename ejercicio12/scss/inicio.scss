@@ -1,0 +1,16 @@
+body{ background-color: aqua; width: 100%;
+
+     header{ width: 60%;
+
+         background-color: red;
+     }
+    article{ width: 50%; border: 2px solid red;
+        background-color: blue;
+        p{
+            font-size: 16em;
+            margin-left: 2em;
+        }
+    }
+
+
+}
